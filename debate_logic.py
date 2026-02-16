@@ -363,3 +363,4 @@ if __name__ == "__main__":
     with open(f"{topic}.md", "w", encoding="utf-8") as f:
         f.write(history)
         print("写入成功！载入史册！")
+        
