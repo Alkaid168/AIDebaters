@@ -24,7 +24,9 @@ debaters_prompt.json 收集了多个知名辩手的提示词及其对应头像�
 ## 鸣谢
 
 Gemini 主要指导老师
+
 豆包 指导老师
+
 Deepseek 提供API服务
 
 ## 特别鸣谢
