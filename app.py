@@ -1,6 +1,16 @@
+import os
+import subprocess
+import sys
+
+# 强行安装OpenAI库防止构建时不安装
+try:
+    from openai import OpenAI
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "openai"])
+    from openai import OpenAI
+
 import streamlit as st
 import json
-import os
 from openai import OpenAI
 from debate_logic import manager
 from debate_logic import find_debater
