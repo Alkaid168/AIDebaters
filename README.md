@@ -1,7 +1,9 @@
 # AIDebaters
 练习用的小项目，用streamlit和Deepseek的API完成的简易AI辩论网页。
 
-## 依赖
+## 运行环境
+
+Python 3.10（按理说3.9以上应该都可以！）
 
 安装openai库和streamlit库。
 
